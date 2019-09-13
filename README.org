@@ -1,0 +1,13 @@
+* RGBullsEye
+First project of the SwiftUI by Tutorials book (Ray Wenderlich)
+
+[[rgb.gif]]
+
+ - Introduction to a few SwiftUI Views: *Text, Button, Alert, Color, Slider, HStack and VStack.*
+ - How to extract a subview in order to create a reusable View of the custom slider.
+ - @State variables and bindings
+ - Presenting an Alert
+
+[[Screen Shot 2019-09-13 at 8.01.56 AM.png]]
+
+
