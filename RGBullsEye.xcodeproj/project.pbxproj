@@ -13,6 +13,7 @@
 		8901398A232A8B7D0021AD08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89013989232A8B7D0021AD08 /* Assets.xcassets */; };
 		8901398D232A8B7D0021AD08 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8901398C232A8B7D0021AD08 /* Preview Assets.xcassets */; };
 		89013990232A8B7D0021AD08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8901398E232A8B7D0021AD08 /* LaunchScreen.storyboard */; };
+		89EA7B9D2331E72B00FBFC0C /* TimeCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EA7B9C2331E72B00FBFC0C /* TimeCounter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		8901398C232A8B7D0021AD08 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8901398F232A8B7D0021AD08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89013991232A8B7D0021AD08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89EA7B9C2331E72B00FBFC0C /* TimeCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeCounter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				89013983232A8B770021AD08 /* AppDelegate.swift */,
 				89013985232A8B770021AD08 /* SceneDelegate.swift */,
 				89013987232A8B770021AD08 /* ContentView.swift */,
+				89EA7B9C2331E72B00FBFC0C /* TimeCounter.swift */,
 				89013989232A8B7D0021AD08 /* Assets.xcassets */,
 				8901398E232A8B7D0021AD08 /* LaunchScreen.storyboard */,
 				89013991232A8B7D0021AD08 /* Info.plist */,
@@ -149,6 +152,7 @@
 				89013984232A8B770021AD08 /* AppDelegate.swift in Sources */,
 				89013986232A8B770021AD08 /* SceneDelegate.swift in Sources */,
 				89013988232A8B770021AD08 /* ContentView.swift in Sources */,
+				89EA7B9D2331E72B00FBFC0C /* TimeCounter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,4 +1,5 @@
 * RGBullsEye
+
 First project of the SwiftUI by Tutorials book (Ray Wenderlich)
 
 [[rgb.gif]]
@@ -10,4 +11,28 @@ First project of the SwiftUI by Tutorials book (Ray Wenderlich)
 
 [[Screen Shot 2019-09-13 at 8.01.56 AM.png]]
 
+- Introduction to Combine and @ObservedObject property wrapper
 
+ContentView subscribes to a Timer() publisher. Each second it sends another updated value.
+
+#+BEGIN_SRC Swift
+class TimeCounter: ObservableObject {
+    let objectWillChange = PassthroughSubject<TimeCounter, Never>()
+    var timer: Timer?
+    var counter = 0
+    
+    @objc func updateCounter() {
+        counter += 1
+        objectWillChange.send(self)
+    }
+    
+    init() {
+        timer = Timer.scheduledTimer(timeInterval:1, target: self, selector:#selector(updateCounter), userInfo: nil, repeats: true)
+    }
+    
+    func killTimer() {
+        timer?.invalidate()
+        timer = nil
+    }
+}
+#+END_SRC
